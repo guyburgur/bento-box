@@ -1,0 +1,10 @@
+body {background-color: blue;}
+    h1 {color: white; text-align: center;}  
+    p {color: white; text-align: center;}
+    ul {color: white; text-align: center;}
+    li {color: white; text-align: center;}
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
