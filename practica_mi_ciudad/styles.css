@@ -1,10 +1,45 @@
-body {background-color: blue;}
-    h1 {color: white; text-align: center;}  
-    p {color: white; text-align: center;}
-    ul {color: white; text-align: center;}
-    li {color: white; text-align: center;}
+@font-face {
+  font-family: FontName;
+  src: url('path/filename.woff2') format('woff2');
+}
+body {
+  font-family: 'FontName', Helvetica, Arial, sans-serif;
+}
+  body {background-color: #8F8F8F;}
+    h1 {color: #2a2d34; text-align: center;}  
+    h3 {color: #2a2d34; text-align: center;}
+    p {color: #EBEBEB; text-align: center;}
+    ul {color: #EBEBEB; text-align: center;}
+    li {color: #EBEBEB; text-align: center;}
 ul {
-  list-style: none;
+  list-style: none; 
   padding-left: 0;
   margin-left: 0;
+}
+a:link {
+  color: #c03c0c;
+}
+a:visited {
+  color: #156588;
+}
+a:hover {
+  color: #EBEBEB;
+}
+a:active {
+  color: gold;
+}
+div {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 100%;
+}
+
+.two-column-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
 }
